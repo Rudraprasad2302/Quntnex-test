@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Full Stack Mastery - QuntNex</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            margin: 0;
+            display: flex;
+            flex-direction: column; /* Changed to column layout */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            color: #fff;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+            width: 90%;
+            text-align: left;
+            transition: transform 0.3s ease;
+            margin-bottom: 20px; /* Added margin to separate from footer */
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h1 {
+            color: #007BFF;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+
+        .img {
+            height: auto;
+            max-width: 100%;
+            margin: 0 auto 20px;
+            display: block;
+            border-radius: 8px;
+            border: 4px solid #007BFF;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #f12711;
+        }
+
+        .button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #fff; /* Changed text color to white */
+            background-color: #333; /* Added background color */
+            padding: 10px 0; /* Added padding for better spacing */
+            width: 100%; /* Ensured footer takes full width */
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .button {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+
+            .button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Master Java Full Stack Development</h1>
+        <img class="img" src="java.jpg" alt="Java Full Stack">
+        <p>Welcome to <span class="highlight">QuntNex</span>, your gateway to mastering the dynamic world of Java programming! Our <span class="highlight">Full Stack Java Development Program</span> not only covers core Java but also provides hands-on experience in modern frameworks like <span class="highlight">Spring Boot</span>, <span class="highlight">Hibernate</span>, and cutting-edge front-end technologies.</p>
+        <p>Whether you're starting your coding journey or looking to enhance your skills, this program prepares you for today's in-demand roles. Earn a <span class="highlight">globally recognized certification</span> and step into a rewarding career filled with opportunities.</p>
+        <p>Unlock your potential with <span class="highlight">real-world projects</span>, expert mentorship, and comprehensive training covering everything from database management to deployment strategies.</p>
+        <a href="enroll.html"><button class="button" type="button">Join Now</button></a>
+    </div>
+    <footer>
+        &copy; 2024 QuantNex. All rights reserved.
+    </footer>
+</body>
+
+</html>

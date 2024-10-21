@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Offered</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box; /* Include padding in width calculations */
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            transition: transform 0.3s ease; /* Add transition for hover effect */
+        }
+
+        .container:hover {
+            transform: translateY(-5px); /* Lift effect on hover */
+        }
+
+        h1 {
+            color: #e74c3c; /* Change heading color for better contrast */
+            margin-bottom: 20px;
+            font-size: 2.5em; /* Increase heading size */
+        }
+
+        ol {
+            list-style-type: circle;
+            padding: 0;
+            text-align: left;
+            margin: 20px 0; /* Add margin for spacing */
+        }
+
+        li {
+            font-size: 1.2em;
+            margin: 15px 0;
+            padding: 10px;
+            border-radius: 8px; /* Rounded corners for list items */
+            transition: background-color 0.3s ease; /* Transition effect */
+        }
+
+        li:hover {
+            background-color: #f0f0f0; /* Highlight on hover */
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056b3; /* Darker shade on hover */
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2em; /* Smaller heading on mobile */
+            }
+
+            li {
+                font-size: 1em; /* Smaller list item text */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Courses Offered</h1>
+        <ol>
+            <li><a href="java.html">Java Full Stack</a></li>
+            <li><a href="python.html">Python Full Stack</a></li>
+            <li><a href="automation.html">Automation Testing</a></li>
+        </ol>
+    </div>
+</body>
+
+</html>
