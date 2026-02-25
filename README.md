@@ -30,9 +30,8 @@ It helped me understand how real-world applications are structured and executed.
 
 ## 🛠 Tech Stack
 
-*(Update based on what you used)*
 
-- **Language:** Java / Python (whichever applies)
+- **Language:** Java 
 - **Execution Type:** Console Application
 - **Concepts Used:** Basic syntax, control flow, functions, classes
 
